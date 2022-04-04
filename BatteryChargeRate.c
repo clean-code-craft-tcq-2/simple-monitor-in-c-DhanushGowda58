@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Bms.h"
+#include "BMS.h"
 
 bool IsChargeRateValid(float chargeRate)
 {
