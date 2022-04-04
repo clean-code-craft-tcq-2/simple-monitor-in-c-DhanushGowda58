@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Bms.h"
+#include "BMS.h"
 
 bool IsTemperatureValid(float temperature) {
   if(temperature < TEMPERATURE_MIN || temperature > TEMPERATURE_MAX) {
