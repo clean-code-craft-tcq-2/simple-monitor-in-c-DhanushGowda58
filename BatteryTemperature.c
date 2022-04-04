@@ -21,7 +21,6 @@ bool BatteryTemperature(float temperature, EarlyWarningForBatteryParameters Para
     {
       batteryTemperatureResult = CheckForEarlyWarning(BATTERYPARAMETER_TEMPERATURE, temperature);
     }
-  }
-  
+  } 
   return batteryTemperatureResult;
 }
