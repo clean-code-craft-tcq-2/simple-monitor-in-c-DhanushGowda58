@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Bms.h"
+#include "BMS.h"
 
 bool IsSOCValid(float soc) {
   if(soc < SOC_MIN || soc > SOC_MAX) {
