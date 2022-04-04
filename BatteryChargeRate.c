@@ -24,6 +24,5 @@ bool BatteryChargeRate(float chargeRate, EarlyWarningForBatteryParameters ParamW
        batteryChargeRateResult = CheckForEarlyWarning(BATTERYPARAMETER_CHARGERATE, chargeRate);
     }
   }
-  
-  return batteryChargeRateResult;
+    return batteryChargeRateResult;
 }
