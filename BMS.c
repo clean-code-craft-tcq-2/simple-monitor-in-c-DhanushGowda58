@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "Bms.h"
+#include "BMS.h"
 //
 char ParameterName[][20] = {"Temperature","SOC","ChargeRate"};
 char *WarningLanguages[TotalLanguages][20] = {{"High Tolerance approaching for ","Low Tolerance approaching for"},{"Hohe Toleranz nähert sich für ","Niedrige Toleranz nähert sich für "}};
